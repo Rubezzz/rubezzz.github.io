@@ -1,0 +1,588 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif");
+/* font-family: 'PT Serif', serif; font-family: 'PT Sans Narrow', sans-serif */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  /*	background-color: white;*/
+  /*color: #3c3c3c */ }
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: #3c3c3c; }
+
+h1 {
+  font-family: 'PT Serif', serif;
+  margin: 0 26px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1; }
+
+body {
+  font-family: 'PT Serif', serif;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+#wrap {
+  width: 1560px;
+  margin: 0 auto; }
+
+.header__cube {
+  width: 9px;
+  height: 9px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #3c3c3c; }
+
+.header__line {
+  width: 50px;
+  height: 1px;
+  background-color: #3c3c3c; }
+
+header div {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.85; }
+
+#header__top .header__zagolovok {
+  margin: 0 auto; }
+
+#header__top {
+  margin-bottom: 57px; }
+
+#header__top,
+#header__top div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+header {
+  margin-top: 62px;
+  margin-bottom: 48px; }
+
+#header__left_but span,
+#header__right_but span {
+  margin: 0 24px; }
+
+#header__left_but,
+#header__right_but {
+  margin-left: 12px;
+  margin-right: 12px;
+  cursor: pointer; }
+
+#header__slider {
+  height: 721px;
+  width: 1560px;
+  background-image: url("../img/head.png"); }
+
+.header__slider__dom, .header__slider__sale {
+  text-align: center; }
+
+.header__slider__dom {
+  padding-top: 255px;
+  padding-bottom: 186px; }
+
+.header__slider__dom__h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  color: #ffffff; }
+
+.header__slider__dom__h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.85;
+  color: #ffffff; }
+
+.header__section {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  line-height: 0.88;
+  margin-bottom: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin: 135px 0 0 409px; }
+
+.header__section__elem {
+  margin-left: 41px;
+  padding-bottom: 14px;
+  font-style: normal;
+  display: inline-block;
+  cursor: pointer; }
+
+.header__section__elem:hover {
+  border-bottom: 6px solid #fff; }
+
+.header__section__elem__selected {
+  border-bottom: 6px solid #fff; }
+
+.header__section a {
+  color: #fff; }
+
+/*конец стилей для шапки*/
+/*стили для описания*/
+.opisanie__1_stroka,
+.infrastructira__zagolovok,
+.xod_stroitelstva__zagolovok,
+.planirovka__zagolovok,
+.kvartiri__zagolovok,
+.dokumenti__zagolovok,
+.kvartiri__uslovnie_oboznach {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.opisanie__1_stroka__vertical_line {
+  width: 1px;
+  height: 48px;
+  background-color: #3c3c3c; }
+
+.opisanie__1_stroka__text_1,
+.opisanie__1_stroka__text_3 {
+  margin: 0 70px; }
+
+.opisanie__1_stroka__text_2 {
+  margin: 0 31px; }
+
+.opisanie__1_stroka__1_storka {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+  line-height: 1.85;
+  text-align: center; }
+
+.opisanie__1_stroka__2_storka {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center; }
+
+/*абзацы описания*/
+.opisanie__2_stroka_obzaci {
+  text-align: center;
+  margin: 48px 0 97px; }
+
+.opisanie__2_stroka_obzaci div {
+  width: 480px;
+  height: 208px;
+  font-family: 'PT Serif', serif;
+  font-size: 17px;
+  line-height: 1.53;
+  display: inline-block;
+  text-align: left; }
+
+.opisanie__2_stroka_obzaci div:first-child {
+  width: 467px;
+  margin-right: 60px; }
+
+/*картинки описания*/
+.opisanie__3_stroka_kartinki {
+  margin: 0 auto;
+  width: 1060px; }
+
+.opisanie__3_stroka_kartinki img {
+  margin: 0 12px 24px 12px; }
+
+/*инфраструктура*/
+.infrastructira__zagolovok {
+  margin: 48px 0; }
+
+.xod_stroitelstva__zagolovok {
+  margin-bottom: 48px;
+  margin-top: 72px; }
+
+/*ход строительства*/
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0; }
+
+.infrastructira__slider {
+  position: relative;
+  width: 765px;
+  margin: 0 auto;
+  margin-bottom: 60px; }
+
+.infrastructira__slider__obvodka {
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  left: -30px;
+  width: 825px;
+  height: 144px;
+  border: solid 1px #cbcbcb; }
+
+.infrastructira__slider img {
+  width: 235px;
+  margin-bottom: 14px; }
+
+.content-slider li {
+  text-align: center;
+  color: #000;
+  width: 235px;
+  height: 235px;
+  margin-right: 30px; }
+
+.content-slider span {
+  margin: 0;
+  padding: 14px 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px;
+  line-height: 1.85; }
+
+.lSAction > a {
+  top: 45%;
+  height: 15px;
+  opacity: 0.9; }
+
+/*планировка*/
+.planirovka {
+  position: relative;
+  width: 1476px;
+  height: 901px;
+  border: solid 1px #cbcbcb;
+  text-align: center;
+  margin: 0 auto; }
+
+.planirovka__zagolovok {
+  position: absolute;
+  left: 490px;
+  top: -12px;
+  background-color: #fff;
+  padding: 0 50px; }
+
+.planirovka p {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  line-height: 1;
+  margin: 63px 0 37px 0; }
+
+.planirovka__arrow_l {
+  position: absolute;
+  top: 472px;
+  left: -18px;
+  cursor: pointer; }
+
+.planirovka__arrow_r {
+  position: absolute;
+  top: 472px;
+  right: -18px;
+  cursor: pointer; }
+
+/*квартиры в продаже*/
+.kvartiri__zagolovok {
+  margin: 72px 0 48px 0; }
+
+.kvartiri {
+  text-align: center; }
+
+.kvartiri__section {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  line-height: 0.88;
+  margin-bottom: 48px; }
+
+.kvartiri__section__elem {
+  padding: 0 22px;
+  padding-bottom: 14px;
+  display: inline-block;
+  cursor: pointer; }
+
+.section_selected, .kvartiri__section__elem:hover, .dokumenti__section__elem:hover {
+  border-bottom: 4px solid transparent;
+  -webkit-border-image: -webkit-linear-gradient(left, #fab05f, #fca74b);
+  -o-border-image: -o-linear-gradient(left, #fab05f, #fca74b);
+     border-image: -webkit-gradient(linear, left top, right top, from(#fab05f), to(#fca74b));
+     border-image: linear-gradient(to right, #fab05f, #fca74b);
+  border-image-slice: 1; }
+
+.kvartiri__check_button {
+  font-size: 14px;
+  line-height: 1.71;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 56px; }
+
+/*чекбоксы*/
+.form-row {
+  display: inline-block; }
+
+.form-row > label {
+  cursor: pointer; }
+
+.checkbox,
+.radio {
+  display: none; }
+
+.checkbox-custom {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c6c6c6;
+  position: relative; }
+
+.checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+  background: #fca74b; }
+
+.checkbox-custom,
+.label {
+  display: inline-block;
+  vertical-align: middle; }
+
+.label {
+  padding: 0 24px 0 10px; }
+
+/*конеч чекбоксов*/
+.kvartiri__table_row {
+  margin-bottom: 10px; }
+
+.kvartiri__table_row > div {
+  display: inline-block; }
+
+.kvartiri__table_row__elem {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border: solid 1px #cbcbcb;
+  margin: 0 4px;
+  color: #3c3c3c;
+  cursor: pointer; }
+
+.kvartiri__table_row__elem__nomer {
+  float: left;
+  height: 40px;
+  width: 40px;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.5;
+  border-right: solid 1px #cbcbcb; }
+
+.kvartiri__table_row__elem__S {
+  height: 40px;
+  width: 59px;
+  margin-left: 41px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #cbcbcb; }
+
+.kvartiri__table_row__N_row {
+  padding-right: 20px; }
+
+.kvartiri__uslovnie_oboznach {
+  margin-top: 57px;
+  font-family: 'PT Serif', serif;
+  font-size: 13px;
+  color: #3c3c3c; }
+
+.kvartiri__uslovnie_oboznach__elem {
+  margin-left: 24px;
+  margin-right: 8px;
+  width: 30px;
+  height: 20px;
+  border: solid 1px #bbbbbb; }
+
+.zabronirovano {
+  border: solid 2px #fca74b;
+  color: #cbcbcb; }
+
+.prodano {
+  border: solid 2px #d0011b;
+  color: #cbcbcb; }
+
+/*всплывающее окно*/
+.kvartiri__table_row__elem__hover {
+  display: none;
+  background-color: #fff;
+  height: 320px;
+  width: 280px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #3c3c3c;
+  padding: 20px;
+  text-align: left; }
+
+.kvartiri__table_row__elem__hover p:first-child {
+  font-size: 16px;
+  font-weight: bold; }
+
+.kvartiri__table_row__elem__hover p:last-child {
+  font-size: 14px; }
+
+.kvartiri__table_row__elem__hover img {
+  width: 210px;
+  margin: 15px 43px; }
+
+.kvartiri__table_row__elem__hover span:last-child {
+  float: right; }
+
+.kvartiri__table_row__elem:hover .kvartiri__table_row__elem__hover {
+  display: block;
+  position: absolute;
+  bottom: -350px;
+  left: 80px;
+  z-index: 2; }
+
+/*документы*/
+.dokumenti {
+  position: relative;
+  width: 1560px;
+  height: 363px;
+  border: solid 1px #cbcbcb;
+  margin: 110px auto 72px auto;
+  text-align: center; }
+
+.dokumenti__zagolovok {
+  position: absolute;
+  left: 570px;
+  top: -12px;
+  background-color: #fff;
+  padding: 0 50px; }
+
+.dokumenti__section {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  line-height: 0.88;
+  margin-bottom: 68px;
+  margin-top: 58px; }
+
+.dokumenti__section__elem {
+  padding: 0 22px;
+  padding-bottom: 14px;
+  display: inline-block;
+  cursor: pointer; }
+
+.dokumenti__docs, .dokumenti__docs__elem {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.dokumenti__docs {
+  font-size: 14px;
+  color: #3c3c3c;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: 265px; }
+
+.dokumenti__docs__elem {
+  width: 342px;
+  margin-bottom: 48px;
+  cursor: pointer; }
+
+.dokumenti__docs__elem span {
+  text-align: left;
+  margin-left: 20px;
+  padding-right: 60px; }
+
+/*футер*/
+footer {
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #3c3c3c; }
+
+.footer_div {
+  border: solid 1px #cbcbcb;
+  height: 97px;
+  width: 1560px;
+  margin-bottom: 24px; }
+
+.footer_div div:last-child {
+  width: 500px;
+  margin: 25px; }
+
+.footer_div div:first-child {
+  float: right;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin: 36px 24px;
+  cursor: pointer; }
+
+.footer_div2 {
+  padding: 0 24px;
+  margin-bottom: 70px; }
+
+.footer_div2 span:last-child {
+  float: right; }
+
+/*всплывающее окно авторизации*/
+.hidden {
+  display: none; }
+
+#form {
+  background-color: #fff;
+  width: 320px;
+  height: 403px;
+  margin: auto;
+  position: relative; }
+
+.form__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #141414;
+  height: 72px;
+  border-bottom: solid 2px #cbcbcb;
+  margin-bottom: 48px; }
+
+.form__title div {
+  margin: 24px 70px;
+  position: absolute; }
+
+.form_input {
+  height: 40px;
+  width: 267px;
+  margin: 15px 20px;
+  padding-left: 13px;
+  color: #c6c6c6;
+  border: solid 1px #c6c6c6;
+  font-style: italic; }
+
+#form label {
+  margin-left: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 13px; }
+
+.form__btn_login {
+  width: 200px;
+  height: 48px;
+  background-color: #f7a449;
+  border: 0px;
+  margin: 15px 60px;
+  color: #fff;
+  cursor: pointer; }
+
+.mfp-close {
+  color: green; }
