@@ -1,0 +1,123 @@
+/* импорт гугл шрифтов */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One'); 
+
+/*
+font-family: 'Suez One', serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none
+}
+
+body, html {
+	background-color: gray;
+	height: 100%;
+}
+
+#wrap{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+header, header:hover, aside div:hover{
+	transition: all.5s ease;
+	-moz-transition:all.5s ease;
+	-webkit-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	-ms-transition: all.5s ease;
+}
+
+header{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	opacity: 0.4;
+	background-color: tan;
+	color: white;
+	text-align: center;
+	font-family: 'Suez One', serif;
+	font-size: 26pt;
+	z-index: 2;
+}
+
+header:hover{
+	opacity: 0.8;
+}
+
+section{
+	width: 100%;
+	min-width: 640px;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+section{
+	transition: all 2s ease;
+	-moz-transition:all 2s ease;
+	-webkit-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+}
+
+section img{
+	position: absolute;
+	top: -250px;
+}
+
+aside{
+	height: 100%;
+	margin-bottom: 1px;
+	z-index: 1;
+}
+
+aside p{
+	text-align: center;
+	font-size: 18pt;
+	position: relative;
+	top: 42%;
+}
+
+aside .smallFont{
+	font-size: 12pt;
+}
+
+aside div{
+	height: 25%;
+	min-height: 150px;
+	width: 250px;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+}
+
+aside div:hover{
+	transform: scale(1.04) rotate(2deg);
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+	-o-box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+aside div:active{
+	transform: scale(1.15);
+}
+
+#green{
+	background-color: #2ecc71;
+}
+#blue{
+	background-color: #3498db;
+}
+#red{
+	background-color: #e74c3c;
+}
+#orange{
+	background-color: #e67e22;
+}
