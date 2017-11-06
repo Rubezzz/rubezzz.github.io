@@ -13,7 +13,8 @@ a, a:hover, a:active {
   outline: none; }
 
 .wrap-main {
-  width: 1560px;
+  min-width: 890px;
+  max-width: 1860px;
   margin: 0 auto;
   padding: 60px 40px; }
 
@@ -127,6 +128,11 @@ a, a:hover, a:active {
 .desc-img__row:last-child {
   margin-bottom: 0px; }
 
+@media screen and (max-width: 1170px) {
+  .desc-img__row {
+    max-width: 540px;
+    margin: 0 auto; } }
+
 /*construction*/
 .slider {
   position: relative;
@@ -160,7 +166,9 @@ a, a:hover, a:active {
   margin: 37px 0; }
 
 .plan__img {
-  margin-bottom: 55px; }
+  margin-bottom: 55px;
+  width: 100%;
+  max-width: 890px; }
 
 .plan__prev, .plan__next {
   display: block;
@@ -281,12 +289,16 @@ a, a:hover, a:active {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin: 60px auto 10px 150px;
-  padding: 0 100px 0 100px; }
+  margin: 60px auto 10px auto;
+  padding: 0 100px 0 100px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .docs-section__elem {
   text-align: left;
-  width: 400px;
+  width: 360px;
   margin-bottom: 50px;
   cursor: pointer; }
 
